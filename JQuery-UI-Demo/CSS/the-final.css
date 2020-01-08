@@ -1,0 +1,33 @@
+#draggable1, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11, #draggable12, #draggable13, #draggable14, #draggable15 {
+	width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0;
+}
+
+#droppable {
+	width: 100%; height: 420px; padding: 0.5em; float: left; margin: 10px;
+}
+
+.tiny {
+	font-size: 14px;
+	text-align: center;
+}
+
+.ui-menu {
+	width: 250px;
+}
+
+.center-me {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.cursive {
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+	padding-top: 20px;
+}

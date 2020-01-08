@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>jQuery Demo</title>
+
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<link rel="stylesheet" href="jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="jquery-ui.theme.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+	<script src="JS/jquery.js"></script>
+	<script src="JS/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="CSS/the-final.css">
+
+</head>
+<body>
+
+<div id="tabs">
+
+	<ul>
+		<li><a href="#tabs-1">Slider</a></li>
+		<li><a href="#tabs-2">Movie List</a></li>
+		<li><a href="#tabs-3">Menu</a></li>
+		<li><a href="#tabs-4">Form</a></li>
+	</ul>
+
+	<!---------Slider------------------------------>
+
+	<div id="tabs-1">
+
+		<div class="your-class" data-slick='{"slidesToShow": 1, "slidesToScroll": 6}'>
+			<div class="center-me">
+				<img src="images/homer.jpg" class="img-fluid">
+
+				<p class="cursive">"D'oh"</p>
+
+			</div>
+			<div class="center-me">
+				<img src="images/duffman.jpg" class="img-fluid">
+				<p class="cursive">"Oh Yeah!!!"</p>
+			</div>
+			<div class="center-me">
+				<img src="images/burns.jpg" class="img-fluid">
+				<p class="cursive">"Release The Hounds"</p>
+			</div>
+			<div class="center-me">
+				<img src="images/flanders.jpg" class="img-fluid">
+				<p class="cursive">"Hi-Diddily-Ho!"</p>
+			</div>
+			<div class="center-me">
+				<img src="images/nelson.jpg" class="img-fluid">
+				<p class="cursive">"HA HA!!!"</p>
+			</div>
+			<div class="center-me">
+				<img src="images/bart.jpg" class="img-fluid">
+				<p class="cursive">"Eat My Shorts"</p>
+			</div>
+		</div>
+
+	</div>
+
+	<!---------Droppable Widgets------------------>
+
+
+	<div id="tabs-2">
+		<h3 class="center-me">Please Pick 10 movies by dragging the movie box.</h3>
+
+		<div id="draggable1" class="ui-widget-content">
+			<p class="tiny">Avatar 2</p>
+		</div>
+		<div id="draggable2" class="ui-widget-content">
+			<p class="tiny">Get Out</p>
+		</div>
+		<div id="draggable3" class="ui-widget-content">
+			<p class="tiny">Wonder Woman</p>
+		</div>
+		<div id="draggable4" class="ui-widget-content">
+			<p class="tiny">Dunkirk</p>
+		</div>
+		<div id="draggable5" class="ui-widget-content">
+			<p class="tiny">The Shape of Water</p>
+		</div>
+		<div id="draggable6" class="ui-widget-content">
+			<p class="tiny">Thor: Rangarok</p>
+		</div>
+		<div id="draggable7" class="ui-widget-content">
+			<p class="tiny">Lady Bird</p>
+		</div>
+		<div id="draggable8" class="ui-widget-content">
+			<p class="tiny">The Post</p>
+		</div>
+		<div id="draggable9" class="ui-widget-content">
+			<p class="tiny">Call Me By Your Name</p>
+		</div>
+		<div id="draggable10" class="ui-widget-content">
+			<p class="tiny">Phantom Thread</p>
+		</div>
+		<div id="draggable11" class="ui-widget-content">
+			<p class="tiny">Coco</p>
+		</div>
+		<div id="draggable12" class="ui-widget-content">
+			<p class="tiny">Blade Runner 2049</p>
+		</div>
+		<div id="draggable13" class="ui-widget-content">
+			<p class="tiny">Baby Driver</p>
+		</div>
+		<div id="draggable14" class="ui-widget-content">
+			<p class="tiny">Logan</p>
+		</div>
+		<div id="draggable15" class="ui-widget-content">
+			<p class="tiny">The Big Sick</p>
+		</div>
+
+
+		<div id="droppable" class="ui-widget-header">
+			<p>Drop Movies Here</p>
+		</div>
+
+	</div>
+
+	<!---------Menu------------------------------>
+
+	<div id="tabs-3">
+
+		<h3>Pick a sport from the menu.</h3>
+
+		<ul id="menu">
+			<li class="ui-widget-header">
+				<div>Men's</div>
+			</li>
+			<li>
+				<div>Football</div>
+				<ul>
+					<li>
+						<div>NFL</div>
+					</li>
+					<li>
+						<div>College</div>
+						<ul>
+							<li>
+								<div>Division I</div>
+							</li>
+							<li>
+								<div>Division II</div>
+							</li>
+							<li>
+								<div>Division III</div>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<div>Semi-Pro</div>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<div>Baseball</div>
+				<ul>
+					<li>
+						<div>MLB</div>
+					</li>
+					<li>
+						<div>Minor Leagues</div>
+						<ul>
+							<li>
+								<div>A</div>
+							</li>
+							<li>
+								<div>AA</div>
+							</li>
+							<li>
+								<div>AAA</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<div>Soccer</div>
+				<ul>
+					<li>
+						<div>Domestic</div>
+						<ul>
+							<li>
+								<div>US Men's Team</div>
+							</li>
+							<li>
+								<div>Major League Soccer</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div>European</div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li class="ui-widget-header">
+				<div>Women's</div>
+			</li>
+			<li>
+				<div>Hockey</div>
+			</li>
+			<li>
+				<div>Running</div>
+				<ul>
+					<li>
+						<div>Marathon Running</div>
+						<ul>
+							<li>
+								<div>Regular Marathon</div>
+							</li>
+							<li>
+								<div>Triathlon</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div>Sprinting</div>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<div>Soccer</div>
+			</li>
+			<li class="ui-widget-header">
+				<div>Children's</div>
+			</li>
+			<li>
+				<div>Tag</div>
+			</li>
+			<li>
+				<div>Hide and Seek</div>
+			</li>
+			<li>
+				<div>Football</div>
+				<ul>
+					<li>
+						<div>Flag Football</div>
+					</li>
+					<li>
+						<div>Touch Football</div>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+
+	</div>
+
+	<!---------Form------------------------------>
+
+	<div id="tabs-4">
+
+		<form id="vacationForm" method="post">
+
+			<label for="destination">Pick A Destination</label>
+			<select id="destination">
+				<option>Hawaii</option>
+				<option>Florida</option>
+				<option>California</option>
+				<option>Paris</option>
+				<option>Spain</option>
+				<option>Australia</option>
+				<option>Brazil</option>
+				<option>Iraq</option>
+			</select>
+
+			<p>Departure Date: <input type="text" id="datepicker"></p>
+			<p>Return Date: <input type="text" id="datepicker2"></p>
+
+			<input class="button" type="submit" value="Make Reservation">
+
+			<div class="message" id="message"></div>
+
+		</form>
+	</div>
+
+</div>
+<script src="slick/slick.min.js"></script>
+<script src="JS/the-final.js"></script>
+</body>
+</html>
