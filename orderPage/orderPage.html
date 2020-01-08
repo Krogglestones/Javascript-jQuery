@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Order Page</title>
+
+	<link rel="stylesheet" href="css/orderPage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<header class="header">
+			<h1>Order Page</h1>
+		</header>
+
+		<main>
+
+			<div class="container-fluid center">
+
+				<form id="orderForm" class="the-form" method="post">
+
+					<div class="form-group">
+
+						<img src="images/heater.jpg" class="img-fluid" alt="space heater"/>
+
+						<h4>Portable Black Space Heater</h4>
+						<h6>Compact Home Office Quiet, Adjustable Thermostat</h6>
+
+						<label for="heaterPrice">PRICE: </label>
+						<input readonly id="heaterPrice" value="29.99" />
+						<br />
+						<label for="heaterQuantity">Quantity: </label>
+						<input type="number" id="heaterQuantity" />
+
+						<br />
+					</div>
+
+					<div class="form-group">
+
+						<img src="images/shovel.jpg" class="img-fluid" alt="shovel"/>
+
+						<h4>Snow Shovel</h4>
+						<h6>Aluminum with a padded grip</h6>
+
+						<label for="shovelPrice">PRICE: </label>
+						<input readonly id="shovelPrice" value="18.99" />
+						<br />
+						<label for="shovelQuantity">Quantity: </label>
+						<input type="number" id="shovelQuantity" />
+
+						<br />
+					</div>
+
+					<div class="form-group">
+
+						<img src="images/jacket.jpg" class="img-fluid" alt="jacket"/>
+
+						<h4>Winter Coat</h4>
+						<h6>Six pockets and tested in arctic temperatures</h6>
+
+						<label for="jacketPrice">PRICE: </label>
+						<input readonly id="jacketPrice" value="69.49" />
+						<br />
+						<label for="jacketQuantity">Quantity: </label>
+						<input type="number" id="jacketQuantity" />
+
+						<br />
+					</div>
+						<br />
+						<label for="giftMessage">GIFT MESSAGE: </label>
+						<textarea id="giftMessage" placeholder="Enter a message"></textarea>
+						<br />
+
+
+					<div>
+						<label for="tax">Sales Tax: </label>
+						<select id="tax">
+							<option value="-1">SELECT A STATE</option>
+							<option value="6.5">WA 6.5%</option>
+							<option value="6.0">Idaho 6%</option>
+							<option value="0">Montana 0%</option>
+							<option value="0.0000000001">Oregon 0%</option>
+						</select>
+					</div>
+
+
+					<input class="button btn btn-success" type="submit" value="Calculate Subtotal">
+
+					<div class="message" id="message"> </div>
+
+				</form>
+
+			</div>
+
+		</main>
+
+
+		<footer class="footer">
+			<h4>&copy; 2019 Craig Larson Software</h4>
+		</footer>
+
+		<script src="js/orderPage.js"></script>
+
+</body>
+
+</html>
