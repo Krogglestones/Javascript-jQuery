@@ -1,0 +1,36 @@
+
+.theBody {
+	background-image: url("../images/theBackground.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background-color: #22190f;
+	color: #f8f3dc;
+	text-align: center;
+}
+
+.the-form {
+	position: absolute;
+	top: 50%;
+}
+
+.box_width {
+	width: 15%;
+	vertical-align: middle;
+}
+
+.pad-me {
+	margin: 20px;
+}
+
+.the-title {
+	position: relative;
+	top: 15%;
+}
+
+.message {
+	padding: 20px;
+	font-size: 24px;
+}
