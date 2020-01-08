@@ -1,0 +1,21 @@
+
+body{
+	font-family: Arial; color: #333;
+}
+
+.container{
+	width:800px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 500px;
+}
+
+#back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 300px;
+	display: none;
+}
