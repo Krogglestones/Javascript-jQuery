@@ -1,0 +1,24 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+
+dl, dt, ul, ol {
+	margin:0;
+	padding:0;
+}
+
+dt{
+	font-weight:bold;
+	color: #0000ff;
+}
+
+dd, li{
+	margin-left: 20px;
+
+}
+
+/* user cursor to let user know the dt is clickable*/
+dt:hover{
+	cursor:pointer;
+}

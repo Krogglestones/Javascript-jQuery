@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Accordion</title>
+	<link rel="stylesheet" href="app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<h1>Really Simple Accordion Explaining the data- Attribute</h1>
+
+<dl class="accordion">
+	<dt>What is the data- attribute in HTML?</dt>
+	<dd>The data- attribute is used to store custom data private to the page or application. It gives
+		developers the ability to embed custom data on ALL HTML elements.
+	</dd>
+	<dt>How is a data- attribute structured?</dt>
+	<dd>
+		<ol>
+			<li>The attribute name should not contain any uppercase letters, and must be at least one character long
+				after the prefix "data-"
+			</li>
+			<li>The attribute value can be any string</li>
+		</ol>
+	</dd>
+	<dt>Is it supported by all browsers?</dt>
+	<dd>Yes view information at https://caniuse.com/#search=data-</dd>
+	<dt>Are there any known issues with data- ?</dt>
+	<dd>There are two known issues.
+		<ul>
+			<li>Android 2.3 cannot read data-* properties from select elements.</li>
+			<li>Safari 10 and below can return undefined on properties of dataset in some cases.</li>
+		</ul>
+	</dd>
+
+
+</dl>
+<script src="app.js">
+
+</script>
+</body>
+</html>
