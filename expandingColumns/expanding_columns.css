@@ -1,0 +1,50 @@
+h4, h5 {
+	text-align: center;
+}
+
+.a-column {
+	padding: 20px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.col_expand .expanding_col_link {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.col_expand .expanding_col_link:hover {
+	color: #00FF00;
+	cursor: pointer;
+}
+
+.col_expand .expanding_col_link:before {
+	content: '  \002b ';
+	padding-right: 4px;
+}
+
+.col_expand .expanding_col_container {
+	overflow: hidden;
+}
+
+.expanding_col .expanding_col_content {
+	padding: 1px 0;
+}
+
+.col_expand.open .expanding_col_link:before {
+	content: '  \2013  ';
+}
+
+#back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	display: none;
+	z-index: 1;
+}
